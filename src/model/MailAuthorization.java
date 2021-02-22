@@ -20,7 +20,7 @@ public class MailAuthorization {
         properties.put("mail.smtp.port", "587");
 
         String emailAccount = "saadrehman2000@gmail.com";
-        String emailPassword = "******";
+        String emailPassword = "******"; //replace with your password
 
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
